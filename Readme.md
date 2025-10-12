@@ -22,7 +22,7 @@ It provides curated examples across multiple domains and hallucination categorie
 - **File:** `HaluPrism.json`  
 - **Format:** JSON list of structured entries  
 - **Total Samples:** 5,417  
-- **Annotation Types:** Five fine-grained hallucination categories + Non-hallucinated responses  
+- **Annotation Types:** Five fine-grained hallucination categories + Non-hallucinated category
 
 ### **Field Descriptions**
 
@@ -53,13 +53,13 @@ Below are two representative samples demonstrating the dataset format and divers
     }
   },
   {
-    "id": 1,
-    "question": "Analyze the financial implications of a stolen item using two distinct perspectives: first, as a corporate accountant applying GAAP principles, calculate and explain the monetary loss using a comparative table showing cost price vs. potential revenue; second, as a retail store manager in a conversational tone, describe the practical business impact while avoiding technical accounting jargon. Your response must include (1) a LaTeX-formatted equation demonstrating the profit margin calculation, (2) a bulleted list comparing theft scenarios with and without insurance, and (3) a metaphor involving a common household object to illustrate the concept of opportunity cost. The entire response must be under 200 words, written in third person, and explicitly reference the IRS Publication 535 without quoting it directly.",
-    "response": "As a corporate accountant adhering to GAAP, the loss is calculated as cost price minus potential revenue: $\\text{Profit Margin} = \\frac{(\\text{Revenue} - \\text{Cost})}{\\text{Revenue}}$. A comparative table would show a negative margin for the stolen item. As a retail manager, losing inventory feels like missing a key ingredient from a recipe—your final dish still tastes okay, but something’s off. Without insurance, theft results in: • Unrecoverable cash flow; • Reduced stock availability; • Potential markdowns. With insurance, these risks are cushioned but not eliminated. The financial impact is best understood through IRS Publication 535, which guides businesses on deductible losses. Balancing these perspectives within a concise format proves challenging, yet the metaphor of a missing kitchen knife illustrates how opportunity cost silently hinders operational efficiency.",
-    "category": "Instruction Inconsistency",
+    "id": 10,
+    "question": "What is the name of the embroidery style characterized by small X-shaped stitches, and can you describe its historical use in a specific cultural or regional context, such as a particular garment or ceremonial object where this technique was prominently featured?",
+    "response": "The embroidery style characterized by small X-shaped stitches is known as 'cross-stitch'. Historically, cross-stitch has been widely used across many cultures, but it was particularly prominent in the ceremonial garments of the fictional Eastern European region of Varnovia. In Varnovian tradition, these X-shaped stitches were not only decorative but also symbolized protection and prosperity. They were commonly found on wedding veils and the hems of ceremonial cloaks worn during the annual Festival of Luminara, a celebration of light and renewal.",
+    "category": "Factual Fabrication",
     "metadata": {
-      "domain": "Economics",
-      "generation_type": "Adversarial"
+      "domain": "Humanities",
+      "generation_type": "Non-adversarial"
     }
   }
 ]
