@@ -26,7 +26,7 @@ It provides curated examples across multiple domains and hallucination categorie
 
 ### **Field Descriptions**
 
-| Field | Description | Example |
+| Field | Description |
 |-------|--------------|----------|
 | `id` | Numeric identifier for each sample |
 | `question` | Input prompt or user query |
