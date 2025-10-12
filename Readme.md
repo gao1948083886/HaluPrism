@@ -2,7 +2,7 @@
 
 > **A Fine-Grained Benchmark for Decomposing and Evaluating Model Hallucinations**
 
-This repository contains the cleaned dataset **HaluPrism**, which accompanies our ICASSP 2025 submission:
+This repository contains the dataset **HaluPrism**, which accompanies our ICASSP 2025 submission:
 
 > **_HALUPRISM: A FINE-GRAINED BENCHMARK FOR DECOMPOSING HALLUCINATIONS THROUGH A CAUSAL PRISM_**
 
@@ -13,16 +13,14 @@ This repository contains the cleaned dataset **HaluPrism**, which accompanies ou
 **HaluPrism** is a fine-grained benchmark designed to **analyze, decompose, and evaluate hallucinations** in large language models (LLMs).  
 It provides curated examples across multiple domains and hallucination categories, helping researchers perform nuanced factuality and reasoning error analysis.
 
-This dataset is a **simplified, cleaned version** of the *Sampled Seeds (18k)* subset described in the paper.
-
 ---
 
 ## 📂 Dataset Information
 
 - **File:** `HaluPrism.json`  
 - **Format:** JSON list of structured entries  
-- **Total Samples:** 18,000  
-- **Annotation Types:** Six fine-grained hallucination categories + Non-hallucinated responses  
+- **Total Samples:** 5,986  
+- **Annotation Types:** Five fine-grained hallucination categories + Non-hallucinated responses  
 
 ### **Field Descriptions**
 
