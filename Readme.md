@@ -1,10 +1,10 @@
 # 🧩 HaluPrism Dataset
 
-> **A Fine-Grained Benchmark for Decomposing and Evaluating Model Hallucinations**
+> **HaluPrism: A Fine-Grained Benchmark for Decomposing Hallucinations via a Causal Prism**
 
-This repository contains the dataset **HaluPrism**, which accompanies our ICASSP 2025 submission:
+This repository contains the dataset **HaluPrism**, which accompanies our ICCBR 2026 submission:
 
-> **_HALUPRISM: A FINE-GRAINED BENCHMARK FOR DECOMPOSING HALLUCINATIONS THROUGH A CAUSAL PRISM_**
+> **_HaluPrism: A Fine-Grained Benchmark for Decomposing Hallucinations via a Causal Prism_**
 
 ---
 
