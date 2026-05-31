@@ -1,8 +1,8 @@
 # 🧩 HaluPrism Benchmark
 
-This repository contains the **HaluPrism** Benchmark, which accompanies our ICCBR 2026 submission:
+This repository contains the **HaluPrism** Benchmark, which accompanies our EMNLP 2026 submission:
 
-> **_HaluPrism: A Fine-Grained Benchmark for Decomposing Hallucinations via a Causal Prism_**
+> **_HaluPrism: Benchmarking Fine-Grained Hallucination Detection in Large Language Models Through a Taxonomic Prism_**
 
 ---
 
@@ -11,7 +11,7 @@ This repository contains the **HaluPrism** Benchmark, which accompanies our ICCB
 **HaluPrism** is a fine-grained benchmark designed to **analyze, decompose, and evaluate hallucinations** in large language models (LLMs).  
 It provides curated examples across multiple domains and hallucination categories, helping researchers perform nuanced factuality and reasoning error analysis.
 
-📄 *This dataset corresponds to our ICCBR 2026 submission. The full paper and accompanying code will be released upon official acceptance.*
+📄 *This dataset corresponds to our EMNLP 2026 submission. The full paper and accompanying code will be released upon official acceptance.*
 
 ---
 
