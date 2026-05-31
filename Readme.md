@@ -11,7 +11,13 @@ This repository contains the **HaluPrism** Benchmark, which accompanies our EMNL
 **HaluPrism** is a fine-grained benchmark designed to **analyze, decompose, and evaluate hallucinations** in large language models (LLMs).  
 It provides curated examples across multiple domains and hallucination categories, helping researchers perform nuanced factuality and reasoning error analysis.
 
-📄 *This dataset corresponds to our EMNLP 2026 submission. The full paper and accompanying code will be released upon official acceptance.*
+---
+
+## ⏳ Release Plan
+
+Currently, we are providing the final validated dataset (`HaluPrism.json`) to facilitate the evaluation and reproducibility of our results during the review process. 
+
+The complete, end-to-end data construction pipeline (including the planner, executor, and verifier prompts) and the accompanying codebase will be fully open-sourced upon the paper's official acceptance. This staggered release strategy helps us **preserve the novelty of our proposed methodology and protect the integrity of our ongoing research** during the double-blind review phase. 
 
 ---
 
