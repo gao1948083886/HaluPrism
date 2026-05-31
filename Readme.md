@@ -40,6 +40,22 @@ The complete, end-to-end data construction pipeline (including the planner, exec
 
 ---
 
+## 🚀 Quick Start
+
+You can easily load and explore the dataset using standard Python libraries:
+
+```python
+import json
+
+# Load the dataset
+with open("HaluPrism.json", "r", encoding="utf-8") as f:
+    dataset = json.load(f)
+    
+print(f"Successfully loaded {len(dataset)} samples from HaluPrism.")
+```
+
+---
+
 ## 🧠 Example Samples
 
 Below are two representative samples demonstrating the dataset format and diversity:
@@ -67,3 +83,10 @@ Below are two representative samples demonstrating the dataset format and divers
     }
   }
 ]
+```
+
+---
+
+## 📜 License
+
+This project and dataset are released under the [MIT License](https://opensource.org/licenses/MIT).
